@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matthews Thekiso | Full Stack Developer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Matthews Thekiso, a Junior Full Stack Developer specializing in React, TypeScript, and Cisco Networking." />
+    <meta property="og:title" content="Matthews Thekiso | Full Stack Developer" />
+    <meta property="og:description" content="Building practical solutions through code & design." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#0a0a0a',
+              accent: '#6366f1',
+              'accent-bright': '#818cf8',
+            },
+            fontFamily: {
+              bebas: ['"Bebas Neue"', 'sans-serif'],
+              grotesque: ['"Darker Grotesque"', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Performance optimized scrolling - No 'scroll-behavior: smooth' here to prevent Opera crashes */
+      html, body {
+        overflow-x: hidden;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #6366f1;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #818cf8;
+      }
+
+      /* GPU Accelerated Reveal Animations */
+      .reveal {
+        opacity: 0;
+        transform: translate3d(0, 30px, 0);
+        transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease-out;
+        will-change: transform, opacity;
+      }
+      .reveal.active {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+      }
+
+      /* Loading Pulse Animation */
+      #initial-loader {
+        position: fixed;
+        inset: 0;
+        background: #0a0a0a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+        transition: opacity 0.5s ease-out;
+      }
+      .pulse-loader {
+        width: 40px;
+        height: 40px;
+        background-color: #6366f1;
+        border-radius: 100%;
+        animation: pulse 1.2s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0% { transform: scale(0); }
+        100% { transform: scale(1); opacity: 0; }
+      }
+
+      /* Marquee Animation */
+      .marquee-container {
+        overflow: hidden;
+        user-select: none;
+        -webkit-user-select: none;
+        display: flex;
+        gap: 3rem;
+        mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        padding: 2rem 0;
+      }
+
+      .marquee-content {
+        flex-shrink: 0;
+        display: flex;
+        justify-content: space-around;
+        gap: 3rem;
+        animation: scroll 30s linear infinite;
+        width: 200%;
+      }
+
+      .marquee-container:hover .marquee-content {
+        animation-play-state: paused;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media print {
+        header, footer, #back-to-top, #custom-cursor, .no-print, button, #initial-loader {
+          display: none !important;
+        }
+        body {
+          background: white !important;
+          color: black !important;
+        }
+        section {
+          background: white !important;
+          padding: 20px 0 !important;
+          opacity: 1 !important;
+          transform: none !important;
+        }
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react/": "https://esm.sh/react@19.0.0/",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/": "https://esm.sh/react-dom@19.0.0/",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@0.468.0?external=react",
+    "@google/genai": "https://esm.sh/@google/genai@^1.39.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-primary text-gray-200 transition-colors duration-300">
+    <div id="initial-loader">
+      <div class="pulse-loader"></div>
+    </div>
+    <div id="root"></div>
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(() => {
+          const loader = document.getElementById('initial-loader');
+          if (loader) {
+            loader.style.opacity = '0';
+            setTimeout(() => loader.remove(), 500);
+          }
+        }, 800);
+      });
+    </script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
