@@ -35,8 +35,8 @@ const Experience: React.FC = () => {
     <section id="experience" className="py-24 px-6 bg-white dark:bg-white/5 reveal transition-colors">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h3 className="text-accent font-semibold tracking-widest uppercase mb-2">Work History</h3>
-          <h2 className="font-bebas text-5xl md:text-7xl text-gray-900 dark:text-white">Experience</h2>
+          <h3 className="text-accent font-semibold tracking-widest uppercase mb-2">My Journey</h3>
+          <h2 className="font-bebas text-5xl md:text-7xl text-gray-900 dark:text-white">Certifications</h2>
         </div>
 
         <div className="space-y-16">
