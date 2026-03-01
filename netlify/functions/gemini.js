@@ -1,4 +1,4 @@
-const { GoogleGenAI } = require("@google/genai");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 exports.handler = async (event, context) => {
   // Handle CORS
@@ -28,12 +28,11 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const genAI = new GoogleGenAI(apiKey);
-    const model = genAI.getGenerativeModel({ 
-      model: "gemini-1.5-flash",
-      systemInstruction: systemInstruction,
-      tools: tools || []
-    });
+    const genAI = new GoogleGenerativeAI(apiKey);
+const model = genAI.getGenerativeModel({ 
+  model: "gemini-1.5-flash",
+  systemInstruction: systemInstruction
+});
 
     const result = await model.generateContent({
       contents: messages.map(m => ({
