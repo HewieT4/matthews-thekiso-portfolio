@@ -69,17 +69,23 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const CERTIFICATIONS: Certification[] = [
+ {
+    name: "CCNA: Introduction to Networks",
+    issuer: "Cisco Networking Academy (Sedibeng TVET College)",
+    year: "19 Jan 2026 • Completion Date",
+    image: "/ccna-certificate.png"
+  },
   {
     name: "Certificate in Full Stack Development",
     issuer: "FNB App Academy (IT Varsity)",
-    year: "22 July 2025 • 32 Credits • Student: 688006BB41BFB • No: AOTYAA072025",
-    image: "https://images.unsplash.com/photo-1589330694653-ded6df03f754?auto=format&fit=crop&q=80&w=1000"
+    year: "22 July 2025 • 32 Credits • No: AOTYAA072025",
+    image: "/fnb-certificate.png"
   },
   {
     name: "IT Essentials: PC Hardware and Software",
     issuer: "Cisco Networking Academy",
     year: "16 Jan 2025 • Completion Date",
-    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=1000"
+    image: "/it-essentials-certificate.png"
   }
 ];
 
