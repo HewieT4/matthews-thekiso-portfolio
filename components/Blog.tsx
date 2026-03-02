@@ -29,7 +29,7 @@ const Blog: React.FC = () => {
     setError(null);
     try {
       // Simplified fetch to avoid preflight issues. GNews supports simple GET requests.
-      const response = await fetch('/.netlify/functions/news');
+      const response = await fetch('/api/news');
       
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
@@ -100,7 +100,7 @@ const Blog: React.FC = () => {
     if (!searchQuery.trim() || isSearching) return;
     setIsSearching(true);
     try {
-      const response = await fetch('/.netlify/functions/gemini', {
+      const response = await fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
