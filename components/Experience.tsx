@@ -18,16 +18,32 @@ const Experience: React.FC = () => {
       tags: ["Full Stack", "APIs", "UX Design", "AI Integration"]
     },
     {
-      title: "Network Administrator - Cisco Networking Academy",
-      company: "Cisco",
+      title: "CCNA: Introduction to Networks",
+      company: "Cisco Networking Academy (Sedibeng TVET College)",
+      period: "Jan 2026",
+      description: "Completed the Cisco CCNA Introduction to Networks certification through the Cisco Networking Academy program.",
+      points: [
+        "Developed working knowledge of IP addressing and subnetting across local and remote networks",
+        "Configured connectivity between switches, routers, and end devices using Ethernet protocols",
+        "Completed 54 hands-on labs totaling 14+ hours using Cisco hardware and Packet Tracer",
+        "Gained understanding of data link protocols and network troubleshooting methodologies",
+        "Earned student-level credential demonstrating foundational networking competency"
+     ],
+     tags: ["Cisco", "Networking", "IP Addressing", "Network Configuration", "Packet Tracer"]
+    },
+    {
+      title: "IT Essentials: PC Hardware and Software",
+      company: "Cisco Networking Academy",
       period: "Jan 2024 - Jan 2025",
-      description: "Successfully completed the IT Essentials course and achieved student-level credential.",
+      description: "Successfully completed the Cisco IT Essentials course and achieved student-level credential.",
       points: [
         "Demonstrated foundation knowledge in computer hardware and software",
-        "Mastered advanced concepts such as security, networking, and troubleshooting",
-        "Maintained network infrastructure and implemented security protocols"
+        "Mastered networking, security, and troubleshooting concepts",
+        "Learned PC assembly, configuration and preventive maintenance techniques",
+        "Gained practical experience through hands-on labs and simulations",
+        "Prepared for entry-level IT support roles with a comprehensive skill set"
       ],
-      tags: ["IT Essentials", "Networking", "Security", "Hardware"]
+      tags: ["IT Essentials", "Hardware", "Software", "Troubleshooting"]
     }
   ];
 
