@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
 import { Send, CheckCircle, AlertCircle, Loader2, Phone, Mail, MapPin, Linkedin, Instagram } from 'lucide-react';
-import emailjs from 'https://esm.sh/@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -15,18 +15,13 @@ const Contact: React.FC = () => {
     setFormState('loading');
 
     // NOTE: Replace these with your actual EmailJS credentials
-    const SERVICE_ID = 'YOUR_SERVICE_ID'; 
-    const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
-    const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+    const SERVICE_ID = 'service_ya1tb39'; 
+    const TEMPLATE_ID = 'template_sqae8da';
+    const PUBLIC_KEY = 'xNJON9RpCSVnZjza5';
 
     try {
       // If keys are placeholders, we'll simulate a success for demo purposes but log a reminder
-      if (PUBLIC_KEY === 'YOUR_PUBLIC_KEY') {
-        console.warn("EmailJS: Please configure your Service ID, Template ID, and Public Key to enable real emails.");
-        await new Promise(resolve => setTimeout(resolve, 2000));
-      } else {
-        await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY);
-      }
+     await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY);
       
       setFormState('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
