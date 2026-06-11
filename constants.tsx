@@ -29,8 +29,8 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.NETWORKING,
     tags: ["Cisco", "Networking", "Python", "SNMP"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com",
-    demo: "https://demo.com"
+    github: "https://github.com/HewieT4/NetMonitor",
+    demo: "https://net-monitor-six.vercel.app/"
   },
   {
     id: 4,
