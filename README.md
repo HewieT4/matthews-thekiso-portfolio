@@ -1,101 +1,75 @@
-<div align="center">
+# Matthews Thekiso 🚀
+### Junior Full Stack Developer & Network Specialist
 
-# Matthews Thekiso
-### Junior Full Stack Developer
+👋 Hello! I am **Matthews Thekiso**, a passionate Junior Full Stack Developer and Network Specialist based in Gauteng, South Africa. I thrive at the unique intersection of software development and network infrastructure, building robust, high-performance, and secure digital landscapes.
 
-*Building practical solutions through code & design.*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://matthews-thekiso-portfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/[your-linkedin-handle])
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:[your-email@example.com])
-
-</div>
+With a strong foundation in modern full-stack frameworks combined with Cisco Networking expertise, I design and build applications with an appreciation for both elegant code and the underlying systems that run them.
 
 ---
 
-## 👨‍💻 About Me
+### 🛠️ My Technical Toolbelt
 
-I'm a Junior Full Stack Developer based in Johannesburg, South Africa, with a passion for building clean, functional web and mobile applications. I specialise in React and TypeScript on the frontend, and I bring a solid understanding of networking fundamentals through Cisco certifications.
+#### **Software Development**
+- **Languages:** JavaScript, TypeScript, HTML5, CSS3, Python, SQL
+- **Libraries & Frameworks:** React, Node.js, Express.js
+- **Design & UI/UX:** Tailwind CSS, Figma, User-Centric Interface Design
+- **Methodologies:** Agile/Scrum, SDLC (Software Development Life Cycle)
+- **Tools:** Git, GitHub, REST APIs, JSON
 
-I'm also the founder of **[Nexlink Solutions ZA](https://github.com/Nexlink-Solutions-ZA)** — an early-stage web and app development agency offering custom web & mobile development and UI/UX design to SME and corporate clients.
-
----
-
-## 🛠️ Tech Stack
-
-**Frontend**
-- React · TypeScript · JavaScript (ES6+) · HTML5 · CSS3
-
-**Backend**
-- Node.js · [Add your backend stack here]
-
-**Tools & Platforms**
-- Git & GitHub · Vercel · VS Code · Figma
-
-**Networking**
-- Cisco Networking (CCNA-level)
+#### **Networking & Systems**
+- **Infrastructure:** Cisco Networking, SNMP (Simple Network Management Protocol)
+- **Administration:** Network Administration, Routing & Switching, Network Services
+- **Support:** System Diagnostics, PC Hardware/Software, Technical Troubleshooting
 
 ---
 
-## 🚀 Projects
+### 💻 Key Projects
 
-> *A selection of projects I've built or contributed to. See the full list on my [portfolio](https://matthews-thekiso-portfolio.vercel.app/).*
+📂 **[Angels World Day Care & Aftercare](https://angels-world-day-care-aftercare.netlify.app/)**
+- A responsive, modern business website built for Angels World to manage and display service catalogs.
+- *Technologies:* HTML5, CSS3, JavaScript, Netlify.
+- *Repo:* [HewieT4/Angels-World-Day-Care-Aftercare](https://github.com/HewieT4/Angels-World-Day-Care-Aftercare)
 
-### 🧪 Laboratory Chemical Inventory Management System
-A full-stack inventory management application built for a laboratory environment, enabling tracking of chemical stock, usage logs, and safety compliance.
-- **Tech:** [Add stack used]
-- **Repo:** [Add link]
+📂 **AI Resume Analyzer**
+- An intelligent tool leveraging serverless AI features to provide real-time optimization feedback and formatting suggestions for professional resumes.
+- *Technologies:* React, Tailwind CSS, TypeScript, Gemini AI.
 
-### [Project Name]
-[Short description of the project and what problem it solves.]
-- **Tech:** [Stack]
-- **Live:** [Link] · **Repo:** [Link]
-
-### [Project Name]
-[Short description.]
-- **Tech:** [Stack]
-- **Live:** [Link] · **Repo:** [Link]
+📂 **Network Monitor Dashboard**
+- A high-performance networking dashboard designed to monitor traffic and server status in real-time.
+- *Technologies:* Python, SNMP, Cisco integration.
 
 ---
 
-## 🏢 Nexlink Solutions ZA
+### 💼 Experience
 
-I co-founded **Nexlink Solutions ZA**, a Johannesburg-based development agency focused on delivering modern digital solutions:
+💼 **Full-Stack Developer Intern** | FNB App Academy (IT Varsity)  
+*Mar 2025 - Jun 2025*
+- Built full-stack applications with an emphasis on responsive design, secure APIs, and custom AI integrations.
+- Actively collaborated on version control via GitHub and applied strict UX/UI principles.
 
-- 🌐 Custom web application development
-- 📱 Mobile application development
-- 🎨 UI/UX design
-- 👥 Clients: SMEs and corporate businesses
-
-[![Nexlink GitHub](https://img.shields.io/badge/Nexlink_Solutions_ZA-GitHub-181717?style=flat-square&logo=github)](https://github.com/Nexlink-Solutions-ZA)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-![Matthews's GitHub Stats](https://github-readme-stats.vercel.app/api?username=[your-github-username]&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=[your-github-username]&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
+💼 **Cisco Networking Program** | Cisco Networking Academy  
+*Jan 2024 - Jan 2025*
+- Completed intensive training in network essentials, system analysis, hardware, and network security diagnostics.
 
 ---
 
-## 📫 Get In Touch
+### 🎓 Education & Certifications
 
-I'm open to freelance projects, collaborations, and opportunities.
-
-- 🌍 **Location:** Johannesburg, South Africa
-- 🌐 **Portfolio:** [matthews-thekiso-portfolio.vercel.app](https://matthews-thekiso-portfolio.vercel.app/)
-- 📧 **Email:** [your-email@example.com]
-- 💼 **LinkedIn:** [linkedin.com/in/your-handle](https://linkedin.com/in/)
+- **Higher National Diploma (IT & Computer Science)** - Sedibeng TVET College (*Jan 2022 - Jan 2026*)
+- **Certificate in Full Stack Development** - FNB App Academy (*2025*)
+- **IT Essentials Certification** - Cisco Networking Academy (*2025*)
+- **Grade 12** - Suiderlig Highschool (*2021*)
 
 ---
 
-<div align="center">
+### 📬 Let's Connect!
 
-*"Building practical solutions through code & design."*
+I am always open to junior developer roles, internships, networking opportunities, and exciting collaborative projects.
 
-</div>
+- 📧 **Email:** [sefellethekiso@gmail.com](mailto:sefellethekiso@gmail.com)
+- 📞 **Phone:** +27 65 916 9351
+- 📍 **Location:** Gauteng, South Africa
+- 💼 **LinkedIn:** [Matthews Thekiso](https://www.linkedin.com/in/matthews-thekiso)
+
+---
+*“Building practical solutions through code & design.”*
