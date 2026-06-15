@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.WEB_APPS,
     tags: ["React", "AI Integration", "Tailwind CSS", "TypeScript"],
     image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com",
+    github: "https://www.framer.com/",
     demo: "https://ai-resume-analyzer-ten-ashy.vercel.app/"
   },
   {
@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.WEB_APPS,
     tags: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     image: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/HewieT4/Angels-World-Day-Care-Aftercare",
+    github: "https://www.framer.com/",
     demo: "https://angels-world-day-care-aftercare.netlify.app/"
   },
   {
@@ -29,7 +29,7 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.NETWORKING,
     tags: ["Cisco", "Networking", "Python", "SNMP"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/HewieT4/NetMonitor",
+    github: "https://www.framer.com/",
     demo: "https://net-monitor-six.vercel.app/"
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     category: ProjectCategory.UI_UX,
     tags: ["Figma", "UX Design", "Tailwind CSS"],
     image: "https://portfolio-blueprint-delta.vercel.app/",
-    github: "https://github.com",
+    github: "https://www.framer.com/",
     demo: "https://portfolio-blueprint-delta.vercel.app/"
   }
 ];
@@ -58,13 +58,13 @@ export const TESTIMONIALS: Testimonial[] = [
     name: "Harry Mofoka",
     role: "Senior Developer",
     content: "Matthews is a brilliant problem solver. His attention to detail in both networking and code is remarkable.",
-    avatar: "https://picsum.photos/seed/p1/100/100"
+    avatar: "https://www.linkedin.com/in/harry-mofoka/"
   },
   {
     name: "Katleho Matsabu",
     role: "UI Designer",
     content: "Working with Matthews on UI implementations was a breeze. He understands the 'why' behind the design.",
-    avatar: "https://picsum.photos/seed/p2/100/100"
+    avatar: "https://www.linkedin.com/in/katleho-matsabu-7861503b1/"
   }
 ];
 
