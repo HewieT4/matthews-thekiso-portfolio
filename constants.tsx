@@ -38,9 +38,9 @@ export const PROJECTS: Project[] = [
     description: "The design system and layout architecture for this very portfolio, focused on bold typography and high-contrast accessibility.",
     category: ProjectCategory.UI_UX,
     tags: ["Figma", "UX Design", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&q=80&w=1000",
+    image: "https://portfolio-blueprint-delta.vercel.app/",
     github: "https://github.com",
-    demo: "https://demo.com"
+    demo: "https://portfolio-blueprint-delta.vercel.app/"
   }
 ];
 
