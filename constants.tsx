@@ -4,7 +4,7 @@ import { Project, ProjectCategory, Skill, Testimonial, Certification } from './t
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "AI Resume Analyzer",
+    title: "Resume Analyzer",
     description: "An intelligent tool leveraging AI to provide real-time feedback and optimization suggestions for professional resumes, helping candidates stand out.",
     category: ProjectCategory.WEB_APPS,
     tags: ["React", "AI Integration", "Tailwind CSS", "TypeScript"],
